@@ -1,0 +1,15 @@
+.foto_item{
+    width: 150px;
+    height: 200px;
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.foto_item img{
+    width: 150px;
+}
+
+.panel-body {
+    border:1px dashed #CCC;
+}
