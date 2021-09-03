@@ -34,7 +34,7 @@ $lista = $a->getMeusAnuncios();
                 <td>R$ <?php echo number_format($anuncios->getValor(), 2);?></td>
                 <td>
                     <a href="editar-anuncio.php?id=<?=$anuncios->getId();?>" class="btn btn-primary">Editar</a>
-                    <a href="exluir-anuncio.php?id=<?=$anuncios->getId();?>" class="btn btn-danger" onclick="confirm('Tem certeza que deseja excluir?')">Exluir</a>
+                    <a href="exluir-anuncio.php?id=<?=$anuncios->getId();?>" class="btn btn-danger" onclick="return confirm('Tem certeza que deseja excluir?')">Exluir</a>
                 </td>
             </tr>
         <?php endforeach;?>
